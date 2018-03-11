@@ -113,3 +113,4 @@ dotchart(t(vehiculos))
 # Create a colored dotchart for autos with smaller labels
 dotchart(t(vehiculos), color=c("red","blue"),
          main="Dotchart para Autos", cex=0.8)
+

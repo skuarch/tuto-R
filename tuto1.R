@@ -30,7 +30,7 @@ familia <- list(
                 edadesHijos=c(20,18,16),
                 ciudad="gdl")
 
-name(familia)
+mode(familia)
 familia$padre
 familia$numeroHijos
 familia[5]

@@ -1,6 +1,6 @@
 # manejo de datos
 
-pacientes <- read.csv("/home/skuarch/Projects/pacientes.csv", header = TRUE)
+pacientes <- read.csv("/home/skuarch/Projects/tuto-R/pacientes.csv", header = TRUE)
 
 # pacientes$ciudad
 # summary(pacientes)
@@ -34,6 +34,6 @@ abline(h=negativeSD, col="blue")
 
 # remover ciudad del dataset
 pacientes[-5]
-write.csv(pacientes, "/home/skuarch/Projects/pacientes2.csv")
+write.csv(pacientes, "/home/skuarch/Projects/tuto-R/pacientes2.csv")
 
 
